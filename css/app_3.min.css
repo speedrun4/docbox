@@ -1,0 +1,56 @@
+.help-block {
+	display: none;
+}
+
+.has-error .help-block {
+	display: block;
+}
+
+/* Esconder o campo de busca do DataTables */
+.dataTables_filter {
+	display: none;
+}
+
+.fg-line .form-control--highlighted:disabled {
+	color: black;
+	cursor: default;
+}
+
+.fg-float .fg-label.fg-toggle-fixed {
+	top: -20px;
+	font-size: 11px
+}
+
+.btn-icon.btn-small {
+	width: 27px;
+	line-height: 31px;
+	height: 28px;
+	padding: 0 0 0 1.1px;
+}
+
+.pageImage {
+	background-color: white;
+	width: 184px;
+	height: 248px;
+	border: 1px solid #fafafa;
+	-webkit-box-shadow: 0px 2px 17px 1px rgba(151, 177, 189, 1);
+	-moz-box-shadow: 0px 2px 17px 1px rgba(151, 177, 189, 1);
+	box-shadow: 0px 2px 17px 1px rgba(151, 177, 189, 1);
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.pageImage .pageLabel {
+	width: 89px;
+	height: 121px;
+	display: inline-block;
+	margin: 0;
+}
+
+.pageImage .pageLabel--selected {
+	background-color: #1299ff;
+}
+
+.pageImage .pageLabel:hover {
+	background-color: #ff9999;
+}

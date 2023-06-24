@@ -1,0 +1,72 @@
+.pageImage {
+	background-color: white;
+	width: 184px;
+	height: 248px;
+	border: 1px solid #fafafa;
+	-webkit-box-shadow: 0px 2px 17px 1px rgba(151, 177, 189, 1);
+	-moz-box-shadow: 0px 2px 17px 1px rgba(151, 177, 189, 1);
+	box-shadow: 0px 2px 17px 1px rgba(151, 177, 189, 1);
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.pageImage .pageLabel {
+	width: 48.5%;
+	height: 121px;
+	display: inline-block;
+	margin: 0;
+}
+
+.pageImage .pageLabel--selected {
+	background-color: #1299ff;
+}
+
+.pageImage .pageLabel:hover {
+	background-color: #ff9999;
+}
+
+.topbar .navbar-nav-title {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+	============================================================== */
+@media ( max-width : 767px) {
+	.topbar .navbar-nav-title {
+		font-size: 1rem;
+	}
+}
+
+input:disabled.inputDisabled {
+	color: blue;
+}
+
+.dataTables_wrapper {
+	width: 98%;
+}
+
+.notification_status_seen {
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	display: inline-block;
+	right: 10px;
+	position: absolute;
+	top: 10px;
+	height: 12px;
+	width: 12px;
+	background: #ddd;
+}
+
+.notification_status_unseen {
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	display: inline-block;
+	right: 10px;
+	position: absolute;
+	top: 10px;
+	height: 12px;
+	width: 12px;
+	background: #55ce63;
+}

@@ -1,0 +1,6 @@
+{
+	"name" : "new_docbox/new_docbox",
+	"require-dev" : {
+		"phpunit/phpunit": "5.4.*"
+	}
+}
